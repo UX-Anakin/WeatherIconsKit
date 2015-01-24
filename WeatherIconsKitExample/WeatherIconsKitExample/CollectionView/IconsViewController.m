@@ -1,6 +1,7 @@
 #import "IconsViewController.h"
 #import "WeatherIconsKit.h"
 #import "IconViewCell.h"
+#import "UIColor+MLPFlatColors.h"
 
 @interface IconsViewController ()
 
@@ -12,7 +13,7 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    
+    self.collectionView.backgroundColor = [UIColor flatBlueColor];
     self.icons = [NSMutableArray array];
     [self loadWeatherIcons];
 }
@@ -31,7 +32,7 @@
 - (void)loadWeatherIcons{
     NSArray *keys = [[[WIKFontIcon allIcons] allKeys] sortedArrayUsingSelector:@selector(compare:)];
     for (NSString *key in keys) {
-        [self.icons addObject:[WIKFontIcon iconWithCode:key size:50]];
+        [self.icons addObject:[WIKFontIcon iconWithCode:key size:40]];
     }
 }
 

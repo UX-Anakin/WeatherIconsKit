@@ -1,3 +1,11 @@
+//
+//  FAKIcon.m
+//  FontAwesomeKit 2.2.0
+//
+//  Created by Pride Chung for FontAwesomeKit.
+//  https://github.com/PrideChung/FontAwesomeKit
+//
+
 #import "FAKIcon.h"
 #import <CoreText/CoreText.h>
 

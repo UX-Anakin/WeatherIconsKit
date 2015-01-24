@@ -15,10 +15,11 @@
 		EEDAB89F1A72F9CB0049303F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDAB89D1A72F9CB0049303F /* LaunchScreen.xib */; };
 		EEDAB8AB1A72F9CB0049303F /* WeatherIconsKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDAB8AA1A72F9CB0049303F /* WeatherIconsKitExampleTests.m */; };
 		EEDAB8BB1A72FBCC0049303F /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDAB8B61A72FBCC0049303F /* FAKIcon.m */; };
-		EEDAB8BC1A72FBCC0049303F /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEDAB8B71A72FBCC0049303F /* weathericons-regular-webfont.ttf */; };
 		EEDAB8BD1A72FBCC0049303F /* WIKFontIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDAB8BA1A72FBCC0049303F /* WIKFontIcon.m */; };
 		EEDAB8C31A72FEBE0049303F /* IconViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDAB8C01A72FEBE0049303F /* IconViewCell.m */; };
 		EEDAB8C41A72FEBE0049303F /* IconsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDAB8C21A72FEBE0049303F /* IconsViewController.m */; };
+		EEDAB8C61A730BC70049303F /* WeatherIcons-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EEDAB8C51A730BC70049303F /* WeatherIcons-Regular.otf */; };
+		EEDAB8C91A7316F40049303F /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDAB8C81A7316F40049303F /* UIColor+MLPFlatColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,6 @@
 		EEDAB8AA1A72F9CB0049303F /* WeatherIconsKitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherIconsKitExampleTests.m; sourceTree = "<group>"; };
 		EEDAB8B51A72FBCC0049303F /* FAKIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAKIcon.h; sourceTree = "<group>"; };
 		EEDAB8B61A72FBCC0049303F /* FAKIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAKIcon.m; sourceTree = "<group>"; };
-		EEDAB8B71A72FBCC0049303F /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
 		EEDAB8B81A72FBCC0049303F /* WeatherIconsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherIconsKit.h; sourceTree = "<group>"; };
 		EEDAB8B91A72FBCC0049303F /* WIKFontIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIKFontIcon.h; sourceTree = "<group>"; };
 		EEDAB8BA1A72FBCC0049303F /* WIKFontIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIKFontIcon.m; sourceTree = "<group>"; };
@@ -55,6 +55,9 @@
 		EEDAB8C01A72FEBE0049303F /* IconViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconViewCell.m; sourceTree = "<group>"; };
 		EEDAB8C11A72FEBE0049303F /* IconsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconsViewController.h; sourceTree = "<group>"; };
 		EEDAB8C21A72FEBE0049303F /* IconsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconsViewController.m; sourceTree = "<group>"; };
+		EEDAB8C51A730BC70049303F /* WeatherIcons-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WeatherIcons-Regular.otf"; sourceTree = "<group>"; };
+		EEDAB8C71A7316F40049303F /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLPFlatColors.h"; sourceTree = "<group>"; };
+		EEDAB8C81A7316F40049303F /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLPFlatColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +142,9 @@
 		EEDAB8B41A72FBCC0049303F /* WeatherIconsKit */ = {
 			isa = PBXGroup;
 			children = (
+				EEDAB8C51A730BC70049303F /* WeatherIcons-Regular.otf */,
 				EEDAB8B51A72FBCC0049303F /* FAKIcon.h */,
 				EEDAB8B61A72FBCC0049303F /* FAKIcon.m */,
-				EEDAB8B71A72FBCC0049303F /* weathericons-regular-webfont.ttf */,
 				EEDAB8B81A72FBCC0049303F /* WeatherIconsKit.h */,
 				EEDAB8B91A72FBCC0049303F /* WIKFontIcon.h */,
 				EEDAB8BA1A72FBCC0049303F /* WIKFontIcon.m */,
@@ -153,6 +156,8 @@
 		EEDAB8BE1A72FEBE0049303F /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				EEDAB8C71A7316F40049303F /* UIColor+MLPFlatColors.h */,
+				EEDAB8C81A7316F40049303F /* UIColor+MLPFlatColors.m */,
 				EEDAB8BF1A72FEBE0049303F /* IconViewCell.h */,
 				EEDAB8C01A72FEBE0049303F /* IconViewCell.m */,
 				EEDAB8C11A72FEBE0049303F /* IconsViewController.h */,
@@ -241,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEDAB8C61A730BC70049303F /* WeatherIcons-Regular.otf in Resources */,
 				EEDAB89A1A72F9CB0049303F /* Main.storyboard in Resources */,
 				EEDAB89F1A72F9CB0049303F /* LaunchScreen.xib in Resources */,
-				EEDAB8BC1A72FBCC0049303F /* weathericons-regular-webfont.ttf in Resources */,
 				EEDAB89C1A72F9CB0049303F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +271,7 @@
 				EEDAB8C31A72FEBE0049303F /* IconViewCell.m in Sources */,
 				EEDAB8971A72F9CB0049303F /* ViewController.m in Sources */,
 				EEDAB8941A72F9CB0049303F /* AppDelegate.m in Sources */,
+				EEDAB8C91A7316F40049303F /* UIColor+MLPFlatColors.m in Sources */,
 				EEDAB8911A72F9CB0049303F /* main.m in Sources */,
 				EEDAB8C41A72FEBE0049303F /* IconsViewController.m in Sources */,
 				EEDAB8BB1A72FBCC0049303F /* FAKIcon.m in Sources */,
