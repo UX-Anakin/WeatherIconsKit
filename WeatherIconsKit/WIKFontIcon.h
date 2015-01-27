@@ -1,7 +1,6 @@
 #import "FAKIcon.h"
 
 @interface WIKFontIcon : FAKIcon
-+ (instancetype)adjustIconWithSize:(CGFloat)size;
 
 // Generated Code
 + (instancetype)wiDayCloudyGustsIconWithSize:(CGFloat)size;
